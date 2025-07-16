@@ -14,7 +14,8 @@ public class Myreport {
 	public static ExtentReports Setup() {
 		String path = "test-output/extentReport/index.html"; 
          	extent = new ExtentReports();
-		spark = new ExtentSparkReporter(path);
+		new File("test-output/extentReport").mkdirs();
+                spark = new ExtentSparkReporter(path);
 		extent.attachReporter(spark);
 		extent.setSystemInfo("OS", "Windows");
 		extent.setSystemInfo("Environment", "QA");
