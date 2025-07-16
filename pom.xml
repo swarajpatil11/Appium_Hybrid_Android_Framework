@@ -48,15 +48,7 @@
 			<version>9.4.0</version>
 		</dependency>
 
-		<dependency>
-			<groupId>BDD_Cucumber_FrameWork</groupId>
-			<artifactId>BDD_Cucumber_FrameWork</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>Android_Testing</groupId>
-			<artifactId>Android_Testing</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		
+		
 	</dependencies>
 </project>
