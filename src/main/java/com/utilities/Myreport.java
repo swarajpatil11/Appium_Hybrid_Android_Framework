@@ -12,8 +12,8 @@ public class Myreport {
 	public static ExtentSparkReporter spark;
 
 	public static ExtentReports Setup() {
-		String path = System.getProperty("user.dir") + "/test-output/reports.html";
-     	extent = new ExtentReports();
+		String path =String path = "test-output/reports.html"; 
+         	extent = new ExtentReports();
 		spark = new ExtentSparkReporter(path);
 		extent.attachReporter(spark);
 		extent.setSystemInfo("OS", "Windows");
