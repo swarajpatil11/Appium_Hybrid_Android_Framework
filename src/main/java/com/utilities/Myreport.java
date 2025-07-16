@@ -12,7 +12,7 @@ public class Myreport {
 	public static ExtentSparkReporter spark;
 
 	public static ExtentReports Setup() {
-		String path = "test-output/extentReport/reports.html"; 
+		String path = "test-output/extentReport/index.html"; 
          	extent = new ExtentReports();
 		spark = new ExtentSparkReporter(path);
 		extent.attachReporter(spark);
